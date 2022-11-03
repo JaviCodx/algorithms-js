@@ -1,4 +1,4 @@
-export default function binarySearch(array, seek) {
+export default function binarySearch<T>(array: T[], seek: T) {
     let hi = array.length;
     let low = 0;
 
